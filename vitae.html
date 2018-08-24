@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="www.google.com" method="POST"
+    <header>
+        <h1 align="center">Curriculum Vitae </h1>
+    </header>
+    <section>
+        <article>
+    <fieldset> 
+
+            <legend>Personal Data</legend>
+
+            <label for="DUI">DUI</label>
+            <input type="number" name="DUI" id="DUI"  placeholder="048134128" required pattern=".{9}" >
+
+            <label for="FirstName">First Name</label>
+            <input type="text" name="FirstName" id="FirstName" required placeholder="First Name">
+
+            <label for="LastName">Last Name</label>
+            <input type="text" name="LastName" id="LastName" required placeholder="Last Name">
+
+            <label for="Gender">Gender</label>
+            <input type="radio" name="Gender" value="M">
+            <label for="Gender">M</label>
+            <input type="radio" name="Gender" value="F">
+            <label for="Gender">F</label>
+
+            <br></br>
+            <label for="ContNumb">Contact number</label>
+            <input type="tel" name="ContNumb" id="ContNumb"  required pattern=".{8}" >
+
+            <label for="datebirth">Birthdate</label>
+            <input type="date" name="date" id="date" required>
+
+            <label for="CivSt">Civil Status</label>
+            <select required>
+                    <option>Single</option>
+                    <option>Married</option>
+            </select>
+
+            <label for="image">Image</label>
+            <input type="file" >
+
+</fieldset>
+
+<p></p>
+
+<fieldset>
+
+    <legend>Work Experience</legend>
+
+    <textarea rows="10" cols="220" placeholder="Experience"></textarea >
+
+</fieldset>
+
+<p></p>
+
+<fieldset>
+    <legend>Academic Training</legend>
+
+    <textarea rows="10" cols="220" placeholder="Academic Training"></textarea >
+
+</fieldset>
+
+<p></p>
+
+<fieldset>
+    <legend>Further Training</legend>
+    <fieldset>
+        <legend>Programming Languages</legend>
+        <input type="radio">Java
+        <input type="radio">C#
+        <input type="radio">Phyton
+        <input type="radio">C++
+        <input type="radio">Ruby
+    </fieldset>
+    <p></p>
+    <fieldset>
+        <legend>Web Technologies</legend>
+        <input type="radio">HTML5
+        <input type="radio">CSS/CSS3
+        <input type="radio">materialize Css
+        <input type="radio">Javascript
+        <input type="radio">Node.js
+        <input type="radio">Spring MVC
+    </fieldset>
+
+</fieldset>
+<p></p>
+<input type="submit" value="Send">
+<input type="submit" value="Cancel">
+
+</article>
+</section>
+    </form>
+</body>
+</html>
